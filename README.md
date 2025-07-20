@@ -2,6 +2,21 @@
 
 A comprehensive digital finance platform that enables advanced blockchain-integrated financial services with a focus on flexible cryptocurrency lending and secure asset management.
 
+System Architecture
+1. Microservices Architecture:
+   
+
+
+<img width="840" height="863" alt="Captura de pantalla 2025-07-20 140830" src="https://github.com/user-attachments/assets/3a0bab8d-b33d-4fbb-af3c-d61adbf400c4" />
+
+
+The architecture follows a modern microservices pattern with clear separation of concerns:
+
+- **Frontend Layer**: Multi-platform interfaces (Web, Mobile, Admin, Merchant)
+- **API Gateway**: Centralized routing, authentication, and rate limiting
+- **Microservices**: Domain-specific services with dedicated responsibilities
+- **Data Layer**: Distributed storage with XRPL integration and analytics
+
 ## 🚀 Features
 
 - **Digital Wallet**: Send and receive USD with QR code support
